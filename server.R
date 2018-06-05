@@ -149,7 +149,7 @@ in four types of mealtime were defined according to the following list:"})
       # save(j_list,file = "scat_checkin.rdata")
      load("scat_checkin.rdata")
      
-     ggplotly(j_list[[input$scat_checkin_time]])
+     ggplotly(j_list[[input$scat_checkin_time]],tooltip='text')
      
      
    })
